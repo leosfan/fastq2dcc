@@ -1,0 +1,4 @@
+Bootstrap: docker
+From: localhost:5000/dsp_rna_fastq2dcc:latest
+%environment
+    export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
